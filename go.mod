@@ -18,7 +18,7 @@ require (
 	github.com/kljensen/snowball v0.8.0
 	github.com/logrusorgru/aurora v2.0.3+incompatible
 	github.com/microcosm-cc/bluemonday v1.0.25
-	github.com/miekg/dns v1.1.56
+	github.com/miekg/dns v1.1.57
 	github.com/minio/selfupdate v0.6.1-0.20230907112617-f11e74f84ca7
 	github.com/pkg/errors v0.9.1
 	github.com/remeh/sizedwaitgroup v1.0.0
