@@ -16,7 +16,7 @@ require (
 	github.com/khulnasoft-lab/fdmax v0.0.7
 	github.com/khulnasoft-lab/gologger v1.1.13
 	github.com/khulnasoft-lab/hmap v0.0.17
-	github.com/kljensen/snowball v0.8.0
+	github.com/kljensen/snowball v0.9.0
 	github.com/logrusorgru/aurora v2.0.3+incompatible
 	github.com/microcosm-cc/bluemonday v1.0.25
 	github.com/miekg/dns v1.1.56
