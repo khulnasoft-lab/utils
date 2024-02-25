@@ -1,6 +1,8 @@
 module github.com/khulnasoft-lab/utils
 
-go 1.20
+go 1.21
+
+toolchain go1.22.0
 
 require (
 	github.com/Masterminds/semver/v3 v3.2.1
@@ -18,7 +20,7 @@ require (
 	github.com/khulnasoft-lab/hmap v0.0.17
 	github.com/kljensen/snowball v0.8.0
 	github.com/logrusorgru/aurora v2.0.3+incompatible
-	github.com/microcosm-cc/bluemonday v1.0.25
+	github.com/microcosm-cc/bluemonday v1.0.26
 	github.com/miekg/dns v1.1.56
 	github.com/minio/selfupdate v0.6.1-0.20230907112617-f11e74f84ca7
 	github.com/pkg/errors v0.9.1
