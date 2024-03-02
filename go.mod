@@ -24,13 +24,13 @@ require (
 	github.com/pkg/errors v0.9.1
 	github.com/remeh/sizedwaitgroup v1.0.0
 	github.com/saintfish/chardet v0.0.0-20230101081208-5e3ef4b5456d
-	github.com/shirou/gopsutil/v3 v3.23.10
+	github.com/shirou/gopsutil/v3 v3.24.2
 	github.com/stretchr/testify v1.8.4
 	github.com/zmap/zcrypto v0.0.0-20231106212110-94c8f62efae4
 	go.uber.org/multierr v1.11.0
 	golang.org/x/exp v0.0.0-20231006140011-7918f672742d
 	golang.org/x/oauth2 v0.14.0
-	golang.org/x/sys v0.14.0
+	golang.org/x/sys v0.17.0
 	golang.org/x/text v0.14.0
 	gopkg.in/yaml.v3 v3.0.1
 )
@@ -78,7 +78,7 @@ require (
 	github.com/xi2/xz v0.0.0-20171230120015-48954b6210f8 // indirect
 	github.com/yuin/goldmark v1.5.4 // indirect
 	github.com/yuin/goldmark-emoji v1.0.1 // indirect
-	github.com/yusufpapurcu/wmi v1.2.3 // indirect
+	github.com/yusufpapurcu/wmi v1.2.4 // indirect
 	go.etcd.io/bbolt v1.3.7 // indirect
 	gopkg.in/djherbis/times.v1 v1.3.0 // indirect
 )
