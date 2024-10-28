@@ -107,7 +107,7 @@ require (
 require (
 	aead.dev/minisign v0.2.0 // indirect
 	github.com/aymerick/douceur v0.2.0 // indirect
-	github.com/cheggaaa/pb/v3 v3.1.4
+	github.com/cheggaaa/pb/v3 v3.1.5
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/ebitengine/purego v0.4.0
 	github.com/golang/protobuf v1.5.3 // indirect
