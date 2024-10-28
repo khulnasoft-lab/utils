@@ -22,7 +22,7 @@ require (
 	github.com/khulnasoft-lab/machineid v0.0.0-20241028154619-d649cc022c2a
 	github.com/khulnasoft-lab/retryablehttp-go v1.0.21
 	github.com/klauspost/compress v1.17.4
-	github.com/kljensen/snowball v0.8.0
+	github.com/kljensen/snowball v0.10.0
 	github.com/logrusorgru/aurora v2.0.3+incompatible
 	github.com/mattn/go-isatty v0.0.20
 	github.com/microcosm-cc/bluemonday v1.0.27
