@@ -9,7 +9,7 @@ require (
 	github.com/cespare/xxhash v1.1.0
 	github.com/charmbracelet/glamour v0.8.0
 	github.com/docker/go-units v0.5.0
-	github.com/dsnet/compress v0.0.2-0.20210315054119-f66993602bf5
+	github.com/dsnet/compress v0.0.2-0.20230904184137-39efe44ab707
 	github.com/fortytw2/leaktest v1.3.0
 	github.com/google/go-github/v30 v30.1.0
 	github.com/google/uuid v1.3.1
