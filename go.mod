@@ -4,7 +4,7 @@ go 1.21
 
 require (
 	github.com/Masterminds/semver/v3 v3.2.1
-	github.com/Mzack9999/gcache v0.0.0-20230410081825-519e28eab057
+	github.com/Mzack9999/gcache 12546c6e3f4c
 	github.com/asaskevich/govalidator v0.0.0-20230301143203-a9d515a09cc2
 	github.com/cespare/xxhash v1.1.0
 	github.com/charmbracelet/glamour v0.8.0
