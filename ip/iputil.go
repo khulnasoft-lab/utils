@@ -11,10 +11,11 @@ import (
 	"strings"
 	"time"
 
+	"go.uber.org/multierr"
+
 	"github.com/khulnasoft-lab/utils/consts"
 	osutil "github.com/khulnasoft-lab/utils/os"
 	stringsutil "github.com/khulnasoft-lab/utils/strings"
-	"go.uber.org/multierr"
 )
 
 var (

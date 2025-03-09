@@ -4,8 +4,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/khulnasoft-lab/utils/reflect/tests"
 	"github.com/stretchr/testify/require"
+
+	"github.com/khulnasoft-lab/utils/reflect/tests"
 )
 
 type TestStruct struct {

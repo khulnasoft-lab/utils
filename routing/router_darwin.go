@@ -11,9 +11,10 @@ import (
 	"strings"
 
 	"github.com/pkg/errors"
+	"go.uber.org/multierr"
+
 	sliceutil "github.com/khulnasoft-lab/utils/slice"
 	stringsutil "github.com/khulnasoft-lab/utils/strings"
-	"go.uber.org/multierr"
 )
 
 // New creates a routing engine for Darwin

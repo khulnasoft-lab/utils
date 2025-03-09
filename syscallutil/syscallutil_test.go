@@ -5,8 +5,9 @@ import (
 	"runtime"
 	"testing"
 
-	osutils "github.com/khulnasoft-lab/utils/os"
 	"github.com/stretchr/testify/require"
+
+	osutils "github.com/khulnasoft-lab/utils/os"
 )
 
 func TestLoadLibrary(t *testing.T) {

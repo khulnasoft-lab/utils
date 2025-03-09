@@ -1,8 +1,9 @@
 package dnsutil
 
 import (
-	stringsutil "github.com/khulnasoft-lab/utils/strings"
 	"github.com/weppos/publicsuffix-go/publicsuffix"
+
+	stringsutil "github.com/khulnasoft-lab/utils/strings"
 )
 
 // Split takes a domain name and decomposes it into its subdomain and domain components.

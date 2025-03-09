@@ -5,9 +5,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/khulnasoft-lab/utils/oidctest"
 	"github.com/coreos/go-oidc/v3/oidc"
 	"github.com/go-jose/go-jose/v3/jwt"
+
+	"github.com/khulnasoft-lab/utils/oidctest"
 )
 
 func TestNewIssuer(t *testing.T) {
