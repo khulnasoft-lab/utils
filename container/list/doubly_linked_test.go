@@ -5,8 +5,9 @@ package listext
 
 import (
 	"container/list"
-	. "github.com/khulnasoft-lab/utils/assert"
 	"testing"
+
+	. "github.com/khulnasoft-lab/utils/assert"
 )
 
 func TestLinkedListInserts(t *testing.T) {

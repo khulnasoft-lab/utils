@@ -6,6 +6,7 @@ package sqlext
 import (
 	"context"
 	"database/sql"
+
 	resultext "github.com/khulnasoft-lab/utils/values/result"
 )
 

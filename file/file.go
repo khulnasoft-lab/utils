@@ -20,10 +20,11 @@ import (
 	"github.com/asaskevich/govalidator"
 	"github.com/mattn/go-isatty"
 	"github.com/pkg/errors"
+	"gopkg.in/yaml.v3"
+
 	osutils "github.com/khulnasoft-lab/utils/os"
 	sliceutil "github.com/khulnasoft-lab/utils/slice"
 	stringsutil "github.com/khulnasoft-lab/utils/strings"
-	"gopkg.in/yaml.v3"
 )
 
 // FileExists checks if the file exists in the provided path

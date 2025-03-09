@@ -6,10 +6,11 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/khulnasoft-lab/utils/conversion"
-	sliceutil "github.com/khulnasoft-lab/utils/slice"
 	"github.com/tidwall/gjson"
 	"golang.org/x/exp/maps"
+
+	"github.com/khulnasoft-lab/utils/conversion"
+	sliceutil "github.com/khulnasoft-lab/utils/slice"
 )
 
 var (

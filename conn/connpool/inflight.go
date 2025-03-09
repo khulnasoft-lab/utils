@@ -4,8 +4,9 @@ import (
 	"errors"
 	"net"
 
-	mapsutil "github.com/khulnasoft-lab/utils/maps"
 	"go.uber.org/multierr"
+
+	mapsutil "github.com/khulnasoft-lab/utils/maps"
 )
 
 type InFlightConns struct {

@@ -7,9 +7,9 @@ import (
 	"os"
 	"runtime"
 
-	raceutil "github.com/khulnasoft-lab/utils/race"
-
 	"golang.org/x/sys/unix"
+
+	raceutil "github.com/khulnasoft-lab/utils/race"
 )
 
 // checkCurrentUserRoot checks if the current user is root

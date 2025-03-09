@@ -7,18 +7,19 @@ import (
 	"os"
 	"path/filepath"
 
+	"gopkg.in/yaml.v3"
+
 	"github.com/khulnasoft-lab/retryablehttp-go"
 	"github.com/khulnasoft-lab/utils/env"
 	fileutil "github.com/khulnasoft-lab/utils/file"
 	folderutil "github.com/khulnasoft-lab/utils/folder"
 	urlutil "github.com/khulnasoft-lab/utils/url"
-	"gopkg.in/yaml.v3"
 )
 
 var (
 	KHULNASOFTDir      = filepath.Join(folderutil.HomeDirOrDefault(""), ".khulnasoft")
 	KHULNASOFTCredFile = filepath.Join(KHULNASOFTDir, "credentials.yaml")
-	ErrNoCreds   = fmt.Errorf("no credentials found in %s", KHULNASOFTDir)
+	ErrNoCreds         = fmt.Errorf("no credentials found in %s", KHULNASOFTDir)
 )
 
 const (
