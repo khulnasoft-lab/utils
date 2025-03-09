@@ -220,7 +220,6 @@ func (u *URL) fetchParams() {
 	u.Update()
 }
 
-
 // copy parsed data from src to dst this does not include fragment or params
 func copy(dst *url.URL, src *url.URL) {
 	dst.Host = src.Host

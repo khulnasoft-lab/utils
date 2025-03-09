@@ -1,8 +1,9 @@
 package process
 
 import (
-	stringsutil "github.com/khulnasoft-lab/utils/strings"
 	ps "github.com/shirou/gopsutil/v3/process"
+
+	stringsutil "github.com/khulnasoft-lab/utils/strings"
 )
 
 // CloseProcesses part

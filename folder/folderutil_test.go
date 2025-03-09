@@ -5,10 +5,11 @@ import (
 	"path/filepath"
 	"testing"
 
-	fileutil "github.com/khulnasoft-lab/utils/file"
-	osutils "github.com/khulnasoft-lab/utils/os"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+
+	fileutil "github.com/khulnasoft-lab/utils/file"
+	osutils "github.com/khulnasoft-lab/utils/os"
 )
 
 func TestGetFiles(t *testing.T) {

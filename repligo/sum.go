@@ -8,7 +8,7 @@ import (
 var sumCmd = &cobra.Command{
 	Use:   "sum",
 	Short: "Compute BLAKE2 sum for input stream or file",
-	Long: "Compute BLAKE2 sum for input stream or file",
+	Long:  "Compute BLAKE2 sum for input stream or file",
 	Run: func(cmd *cobra.Command, args []string) {
 
 		// TODO: Compute BLAKE2 checksum for input

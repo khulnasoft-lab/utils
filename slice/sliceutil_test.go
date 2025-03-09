@@ -3,8 +3,9 @@ package sliceutil
 import (
 	"testing"
 
-	osutils "github.com/khulnasoft-lab/utils/os"
 	"github.com/stretchr/testify/require"
+
+	osutils "github.com/khulnasoft-lab/utils/os"
 )
 
 func TestPruneEmptyStrings(t *testing.T) {

@@ -2,12 +2,13 @@ package appext
 
 import (
 	"context"
-	. "github.com/khulnasoft-lab/utils/assert"
 	"os"
 	"os/signal"
 	"sync"
 	"testing"
 	"time"
+
+	. "github.com/khulnasoft-lab/utils/assert"
 )
 
 func TestForceExitWithNoTimeout(t *testing.T) {

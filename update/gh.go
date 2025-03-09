@@ -17,9 +17,10 @@ import (
 
 	"github.com/cheggaaa/pb/v3"
 	"github.com/google/go-github/v30/github"
+	"golang.org/x/oauth2"
+
 	"github.com/khulnasoft-lab/gologger"
 	errorutil "github.com/khulnasoft-lab/utils/errors"
-	"golang.org/x/oauth2"
 )
 
 var (

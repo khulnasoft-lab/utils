@@ -2,14 +2,14 @@ package errkit
 
 import (
 	"encoding/json"
+	stderrors "errors"
 	"testing"
 
 	"github.com/pkg/errors"
-	errorutil "github.com/khulnasoft-lab/utils/errors"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/multierr"
 
-	stderrors "errors"
+	errorutil "github.com/khulnasoft-lab/utils/errors"
 )
 
 // what are these tests ?

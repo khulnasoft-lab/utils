@@ -16,9 +16,10 @@ import (
 
 	"github.com/Mzack9999/gcache"
 	"github.com/cespare/xxhash"
+	"golang.org/x/tools/imports"
+
 	singleflight "github.com/khulnasoft-lab/utils/memoize/simpleflight"
 	stringsutil "github.com/khulnasoft-lab/utils/strings"
-	"golang.org/x/tools/imports"
 )
 
 type Memoizer struct {

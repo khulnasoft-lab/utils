@@ -8,9 +8,10 @@ import (
 	"runtime"
 	"strings"
 
+	"golang.org/x/term"
+
 	"github.com/khulnasoft-lab/gologger"
 	"github.com/khulnasoft-lab/utils/env"
-	"golang.org/x/term"
 )
 
 var (

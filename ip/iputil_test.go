@@ -4,9 +4,10 @@ import (
 	"net"
 	"testing"
 
+	"github.com/stretchr/testify/require"
+
 	"github.com/khulnasoft-lab/utils/consts"
 	osutils "github.com/khulnasoft-lab/utils/os"
-	"github.com/stretchr/testify/require"
 )
 
 func TestTryExtendIP(t *testing.T) {

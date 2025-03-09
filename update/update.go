@@ -16,6 +16,7 @@ import (
 	"github.com/charmbracelet/glamour"
 	styles "github.com/charmbracelet/glamour/styles"
 	"github.com/minio/selfupdate"
+
 	"github.com/khulnasoft-lab/gologger"
 	"github.com/khulnasoft-lab/machineid"
 	errorutil "github.com/khulnasoft-lab/utils/errors"
