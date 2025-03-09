@@ -40,9 +40,9 @@ require (
 	github.com/shirou/gopsutil/v3 v3.23.7
 	github.com/spf13/cobra v1.9.1
 	github.com/spf13/viper v1.19.0
-	github.com/stretchr/testify v1.9.0
+	github.com/stretchr/testify v1.10.0
 	github.com/tidwall/gjson v1.14.3
-	github.com/zmap/zcrypto v0.0.0-20231018155041-c1c1128be414
+	github.com/zmap/zcrypto v0.0.0-20250129210703-03c45d0bae98
 	go.uber.org/multierr v1.11.0
 	golang.org/x/exp v0.0.0-20231006140011-7918f672742d
 	golang.org/x/oauth2 v0.28.0
@@ -135,7 +135,7 @@ require (
 	github.com/google/go-querystring v1.1.0 // indirect
 	github.com/gorilla/css v1.0.1 // indirect
 	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
-	github.com/weppos/publicsuffix-go v0.30.2-0.20230730094716-a20f9abcc222
+	github.com/weppos/publicsuffix-go v0.40.3-0.20250127173806-e489a31678ca
 	github.com/zcalusic/sysinfo v1.0.2
 	github.com/zmap/rc2 v0.0.0-20190804163417-abaa70531248 // indirect
 	golang.org/x/crypto v0.36.0 // indirect
